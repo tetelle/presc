@@ -10,9 +10,13 @@ The first time you can choose the option "create" to automatically create the da
 Then you will need 2 csv files: 
 go to http://www.hscic.gov.uk/searchcatalogue?q=title%3A%22presentation+level+data%22&area=&size=10&sort=Relevance
 for prescriptions download TYYYYMMPDPI+BNFT.csv (where YYYY is the year and MM the month)
-- link: "GP Practice Prescribing Presentation-level Data        Practice prescriptions data"
 for practices download addresses TYYYYMMADDR+BNFT.csv (where YYY is the year and MM the month)
-- link: "GP Practice Prescribing Presentation-level Data        Practice codes, names and addresses"  
+
+select a date you will obtain 4 links (you only need the top 2 links:
+- click on the link: "GP Practice Prescribing Presentation-level Data        Practice prescriptions data"
+- then click on the link: "GP Practice Prescribing Presentation-level Data   Practice codes, names and addresses"  
+- ...
+- ...
 
 To add these files to the database: run presc.py 
 choose the option addpractice with the name of the csv file (TYYYYMMADDR+BNFT.csv) 
